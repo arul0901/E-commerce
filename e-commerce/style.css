@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+#navbar{
+    position:sticky;
+    top:0;
+    left:0;
+    z-index: 100;
+    padding:.5rem 5rem;
+    box-shadow:5px 5px 20px rgba(0,0,0,.5);
+    background-color: black;
+}
+.navbar .navbar-brand{
+    font-size:25px;
+    font-weight: 800;
+    color:forestgreen !important;
+}
+#navbarNav a{
+    color:white !important;
+    font-size: 20px;
+    font-weight: 340;
+    border-bottom: 2px solid transparent;
+}
+#navbarNav a:hover{
+    border-bottom: 2px solid forestgreen ;
+    transition: 1.5s;
+}
+#navbarNav button{
+    background-color:forestgreen ;
+    width: 5rem;
+    border-radius: 10px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    justify-content:  center;
+    align-items: center;
+}
+#home{
+    background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,0.6)) ,url("Bg.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h2{
+    font-size: 50px;
+    color:forestgreen;
+    letter-spacing: 1px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 600;
+    position: relative;
+    bottom:150px;
+    left:20px;
+
+}
+p{
+    color: white;
+    position: relative;
+    bottom:150px;
+    left:20px;
+    width: 30%;
+
+}
+#home .input-group{
+    width: 40%;
+    height: 50px;
+    position: relative;
+    left: 60px;
+    bottom: 150px;
+    border-radius: 5px;
+ 
+}
+.signin{
+    background: forestgreen !important;
+    color: wheat;
+    box-shadow: 4px 4px 4px rgba(0,0,0,.3);
+    border-radius: 5px;
+    height: 50px;
+    width: 10%;
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+
+}
+.signin:hover{
+    height: 60px;
+    width:14%;
+    transition:1.8s;
+}
+#Fashions{
+    background: black !important;
+}
+#Fashions h1{
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: forestgreen;
+}
+
+.card{
+    border:none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+    inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+}
+#Stationery{
+    background: #000000;
+}
+#Stationery h1{
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: forestgreen;
+}
+#Home-Appliances{
+    background: #000000;
+}
+#Home-Appliances h1{
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: forestgreen;
+}
